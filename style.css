@@ -1,0 +1,258 @@
+body {
+	font-family: Courier, monospace;
+    margin: 0; /*chaque page web a une marge par défault donc on met marge = 0*/
+}
+
+
+
+.header {
+  padding: 100px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:  Georgia, Courier, sans-serif;
+  background-image: url("https://i.pinimg.com/originals/ad/0a/19/ad0a19d7ce6fee6d9c261df847f77514.jpg");
+}
+
+
+h1 {
+	font-size: 28px;
+	font-family:  'Bookman Old Style', serif;
+}
+
+h1:hover {
+	color :#D6C59F;
+}
+
+
+article {
+	width:  70%;
+	margin: auto;
+}
+
+article img {
+	width: 100%;
+	
+
+}
+
+article img:hover {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+article p {
+	text-align: justify;
+}
+
+ a {
+	color:  black;
+	text-decoration: none;
+	display:  block;
+	margin:  1em 0;
+
+
+}
+
+
+.liens:hover {
+	color: #D6C59F;
+
+}
+
+ul {
+	
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2B221E;
+}
+
+li {
+
+  float: left;
+}
+
+li a {
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+ .flex-container {
+      display: flex;
+      align-items: center;
+  justify-content: center;
+      
+      }
+     .flex-container > div {
+      width: 300px;
+      padding: 10px ;
+      margin: 20px;
+      background-color: white;
+      text-align: justify;
+      font-size: 20px;
+      }
+
+      .flex-container > p {
+      	font-size: 10px;
+      }
+
+      .img1{
+      	width: 100%;
+      	margin-bottom: 30px;
+      }
+
+         .img2{
+      	width: 95%;
+      	margin-bottom: 30px;
+      	margin-top: 45px;
+      }
+
+
+   .img3{
+      	width: 100%;
+      	margin-bottom: 30px;
+      	margin-top: -25px;
+      	
+      }
+
+      .img2:hover {
+      	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      }
+
+      .img3:hover {
+      	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      }
+
+
+      h4 {
+      	font-family:  Georgia, Courier, sans-serif;
+      }
+
+      h4:hover {
+      	color: #D6C59F;
+
+      }
+
+      .imagee:hover {
+      	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+      }
+
+  input[type=text], select, input[type=password], input[type=number], input[type=date]{
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 15px 5px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+
+
+
+div {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+
+.footer {
+   
+   left: 0;
+   bottom: 0;
+   height: 800px;
+   width: 100%;
+   background-color: #2B221E;
+   color: white;
+   text-align: center;
+}
+
+.displayflex {
+  display: flex;
+  background-color: #2B221E;
+}
+
+.displayflex > div {
+  background-color: #2B221E;
+  color: white;
+  width: 600px;
+  margin: 10px;
+   align-items: center;
+  justify-content: center;
+  text-align: justify;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.displayflex2 {
+  display: flex;
+  background-color: white;
+  width: 1100px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.displayflex2 > div {
+  background-color: white;
+  color: black;
+
+  
+   align-items: center;
+  justify-content: center;
+  text-align: justify;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+
+.map-responsive {
+ overflow:hidden;
+ padding-bottom:30%;
+ position:relative;
+ height:0;
+}
+.map-responsive iframe {
+ left:180px;
+ top:0;
+ 
+ height:70%;
+ width:75%;
+ position:absolute;
+}
+
+.footerlien {
+	color: white;
+}
+
